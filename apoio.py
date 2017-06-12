@@ -30,3 +30,17 @@ python manage.py runserver 192.168.0.115:8000
 
 # incluir no settings.py pra acesso remoto
 ALLOWED_HOSTS = ['192.168.0.115', 'localhost']
+
+
+###########################################################################################################################################################################
+### git
+
+echo "# ambiente_teste" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git remote add origin https://github.com/vinibfr/ambiente_teste.git
+  git push -u origin master
+
+  git remote add origin https://github.com/vinibfr/ambiente_teste.git
+  git push -u origin master
