@@ -8,10 +8,10 @@ django-admin startproject projectAlpha
 django-admin startproject --template=https://github.com/Mischback/django-project-skeleton/archive/development.zip projectBeta
 
 # executa server no localhost
-python manage.py runserver  
+python manage.py runserver
 
 # cria aplicação
-python manage.py startapp personal
+python manage.py startapp blog
 
 # executar construir migração
 python manage.py makemigrations
@@ -23,7 +23,10 @@ python manage.py migrate
 python manage.py help
 
 # executa server no IP
-python manage.py runserver 192.168.0.115:8000 
+python manage.py runserver 192.168.0.115:8000
+
+# exibe sql do modelo
+python manage.py sqlmigrate blog 0001
 
 ###########################################################################################################################################################################
 ### Alterações
@@ -44,3 +47,7 @@ echo "# ambiente_teste" >> README.md
 
   git remote add origin https://github.com/vinibfr/ambiente_teste.git
   git push -u origin master
+
+###########################################################################################################################################################################
+### outros
+  https://docs.djangoproject.com/en/1.11/
