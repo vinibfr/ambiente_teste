@@ -51,3 +51,6 @@ echo "# ambiente_teste" >> README.md
 ###########################################################################################################################################################################
 ### outros
   https://docs.djangoproject.com/en/1.11/
+
+# restart server
+  sudo systemctl restart uwsgi

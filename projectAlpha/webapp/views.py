@@ -1,6 +1,7 @@
-from django.http import HttpResponse
-
-# Create your views here.
+from django.shortcuts import render
 
 def index(request):
-    return HttpResponse("<h2>HEY, AMO VOCÊ MAIS DO QUE TUDO NO MUNDO, SUA LINDA!</h2>")
+    return render(request, 'webapp/home.html')
+
+def contact(request):
+    return render(request, 'webapp/basic.html', {'content':['Se quiser falar comigo, tentae pelo e-mail:','vinibfr@gmail.com']})    
