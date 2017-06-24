@@ -31,18 +31,20 @@
 						</button>
 						<a class="navbar-brand" href="/">Vinícius Batista</a>
 					</div>
-          
+
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="/">Início <span class="sr-only">(current)</span></a></li>
+							<li><a href="/">Início <span class="sr-only">(current)</span></a></li>
 							<li><a href="/blog/">Blog</a></li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contato <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="/contact/">E-mail</a></li>
-									<li><a href="#">Facebook</a></li>
-									<li><a href="#">Github</a></li>
+									<li><a href="https://web.facebook.com/vinicius.bfreis" target="_blank">Facebook</a></li>
+									<li><a href="https://github.com/vinibfr" target="_blank">Github</a></li>
+									<li><a href="https://twitter.com/vinicius_bfr" target="_blank">Twitter</a></li>
+									<li><a href="https://www.linkedin.com/in/vinícius-batista-ferreira-dos-reis-93493823/" target="_blank">Linkedin</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -58,47 +60,24 @@
 		</div>
 
 		<div class="row">
-			  <div class="col-sm-2">
-				  <br>
-				  <center>
-					<img src="{% static 'img/profile.jpg' %}" class="responsive-img" style='max-height:100px;' alt="face">
-				  </center>
-			  </div>
-			  <div class="col-sm-10">
-				  <br>
-				  <center>
-				  <h3>Tentando aprender os paranauê</h3>
-				  </center>
-			  </div>
-		</div><hr>
-
-		<div class="row">
-		  <div class="col-sm-2">
-		  <br>
-
-		  <br>
-
-
-		  </div> <!--col-sm-2-->
-		  <div class="col-sm-10">
-
+		  <div class="col-sm-12">
 			<div class='container-fluid'>
-			<br><br>
 			   {% block content %}
 			   {% endblock %}
 			</div>
 		  </div>
 		</div>
 	</div>
+	<blockquote>
+		Melhor site, filho!!!
 	<footer>
-		<div class="container-fluid" style='margin-left:15px'>
-			<p><a href="#" target="blank">Facebook</a> | <a href="#" target="blank">LinkedIn</a> | <a href="#" target="blank">Twitter</a> | <a href="#" target="blank">Google+</a></p>
-		</div>
+	  Minha mãe
 	</footer>
-	
+</blockquote>
+
 	<script src="{% static 'js/jquery.min.js' %}"></script>
 	<script src="{% static 'js/bootstrap.min.js' %}"></script>
-	
+
 </body>
 
 </html>

@@ -1,7 +1,18 @@
 {% extends "webapp/header.html" %}
+{% load staticfiles %}
 {% block content %}
-<p>Achou que não ia ter site? Achou errado, otário!!</p>
-
-{% include 'webapp/includes/htmlsnippet.html' %}
+<div class="col-sm-3">
+  <br>
+  <img src="{% static 'img/perfil.jpg' %}" class="responsive-img img-rounded" style='max-height:200px;' alt="face">
+</div>
+<div class="col-sm-8">
+  <br>
+  <h1>Vinícius Batista</h1>
+  <small><p>Idiota, pobre, fudido e mulambo</p><small><br>
+  <left>
+  <h4>Achou que não ia ter site? Achou errado, otário! Vai tá tendo muito site sim!</h4>
+  <h4>Maior site da rede mundial de computadores que peca em conteúdo, site pessoal, sobre coisas.</h4>
+</left>
+</div>
 
 {% endblock %}
