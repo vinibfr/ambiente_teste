@@ -47,7 +47,7 @@ echo "# ambiente_teste" >> README.md
 
   git remote add origin https://github.com/vinibfr/ambiente_teste.git
   git push -u origin master
-
+  https://rogerdudler.github.io/git-guide/index.pt_BR.html
 ###########################################################################################################################################################################
 ### outros
   https://docs.djangoproject.com/en/1.11/
